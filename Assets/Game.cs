@@ -16,8 +16,6 @@ public class Game : MonoBehaviour
     public static GameObject prefabAsteroidLarge;
     public static GameObject prefabAsteroidMedium;
     public static GameObject prefabAsteroidSmall;
-    public static GameObject prefabShip;
-    public static GameObject prefabShipThrust;
     public static GameObject prefabShipBullet;
     public static GameObject prefabFragment;
 
@@ -55,7 +53,7 @@ public class Game : MonoBehaviour
         }
     }
 
-    public static Vector3 RollOver(Vector3 position)
+    public static Vector3 GameAreaRoll(Vector3 position)
     {
         if (position.z > gameAreaZ)
         {

@@ -10,7 +10,7 @@ public class AsteroidMedium : MonoBehaviour
 
     void Update()
     {
-        transform.position = Game.RollOver(transform.position);
+        transform.position = Game.GameAreaRoll(transform.position);
     }
 
     void OnCollisionEnter(Collision collision)

@@ -51,6 +51,6 @@ public class Ship : MonoBehaviour
             nextFireTime = Time.realtimeSinceStartup + fireInterval;
         }
 
-        transform.position = Game.RollOver(transform.position);
+        transform.position = Game.GameAreaRoll(transform.position);
     }
 }
