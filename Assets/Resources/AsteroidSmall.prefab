@@ -77,13 +77,13 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ec6aff93c55fc10b87e7757505860f5, type: 3}
-      insertIndex: -1
+      insertIndex: 1
       addedObject: {fileID: 3833830181768626934}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ec6aff93c55fc10b87e7757505860f5, type: 3}
-      insertIndex: -1
+      insertIndex: 2
       addedObject: {fileID: 2544775806055824928}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8ec6aff93c55fc10b87e7757505860f5, type: 3}
-      insertIndex: -1
+      insertIndex: 3
       addedObject: {fileID: -6416314899681030155}
   m_SourcePrefab: {fileID: 100100000, guid: 8ec6aff93c55fc10b87e7757505860f5, type: 3}
 --- !u!1 &9012299558884543693 stripped
