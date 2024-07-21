@@ -83,10 +83,9 @@ public class Game : MonoBehaviour
     {
         for (int i = 0; i < num; i++)
         {
-            GameObject o = Instantiate(prefabAsteroidLarge);
             Vector3 pos = Random.insideUnitSphere.normalized * gameAreaX;
             pos.y = 0;
-            o.transform.position = pos;
+            GameObject o = Instantiate(prefabAsteroidLarge, pos, Random.rotation);
             Rigidbody orb = o.GetComponent<Rigidbody>();
             Vector3 vel = 3.0f * Random.insideUnitSphere.normalized;
             vel.y = 0;
